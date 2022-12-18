@@ -205,7 +205,7 @@ a:focus-visible {
 }
 
 .hero.is-info {
-  background-color: #0F7BC2;
+  background-color: #0f7bc2;
 }
 
 .hero.is-info .tabs.is-boxed li.is-active button {
@@ -309,7 +309,6 @@ a:focus-visible {
   background-color: #005c99;
   color: white;
   width: fit-content;
-  padding: 0.3rem;
   border-radius: 2px;
   position: sticky;
   top: 0.5rem;
@@ -317,8 +316,51 @@ a:focus-visible {
   z-index: 1;
 }
 
-ul li a, 
+ul li a,
 .mit-link {
   color: #005c99;
+}
+
+.dropdown-options {
+  display: none;
+}
+
+.dropdown-options-open {
+  position: absolute;
+  overflow: auto;
+  background-color: #4a4a4a;
+}
+
+.open {
+  display: block;
+  overflow:visible;
+}
+
+nav > span li ul { display: none; }
+nav > ul li:focus ul { display: block;}
+
+.dropdown-element {
+  display: block;
+  width: 100%;
+  padding: 0.625rem 0.2rem;
+  clear: both;
+  font-weight: 700;
+  color: white;
+  text-align: inherit;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+}
+
+.dropdown-element:focus, .dropdown-element:hover {
+  color: #fff;
+  outline-color: #000;
+  background-color: #262626;
+}
+
+.navbar-menu, .navbar-end {
+  display: flex;
+  align-items: flex-start;
 }
 
