@@ -58,7 +58,7 @@ const trigerNotification = () => {
     setTimeout(() => {
       notification.classList.remove("is-visible");
       notification.classList.add("visually-hidden");
-    }, 110 * 1000);
+    }, 5 * 1000);
   }
 };
 
