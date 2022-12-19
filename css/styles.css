@@ -336,9 +336,6 @@ ul li a,
   overflow:visible;
 }
 
-nav > span li ul { display: none; }
-nav > ul li:focus ul { display: block;}
-
 .dropdown-element {
   display: block;
   width: 100%;
